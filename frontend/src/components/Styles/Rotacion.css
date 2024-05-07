@@ -1,0 +1,69 @@
+.campeon-container {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  .campeon-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .campeon-list li {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .campeon-nombre {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+  }
+  
+  .campeon-image {
+    cursor: pointer;
+  }
+  
+  .campeon-detalles {
+    margin-top: 20px;
+  }
+  
+  .paper {
+    opacity: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid black;
+    box-shadow: 0px 0px 10px black;
+  }
+  
+  #nombre {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  
+  #titulo {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+  
+  #descripcion {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  
+  .habilidades-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .habilidad {
+    margin-top: 10px;
+    margin-right: 5%;
+  }
